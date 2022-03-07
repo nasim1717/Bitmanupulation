@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i,j,n,x;
+    while(true){
+        cin>>n>>i;
+        i--;
+            x= n>>i;
+        if((x&1)!=0)
+            cout<<"set"<<endl;
+        else
+            cout<<"Not set"<<endl;
+    }
+return 0;
+}
