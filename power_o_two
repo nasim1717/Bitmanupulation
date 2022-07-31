@@ -8,7 +8,7 @@ int main(){
         while(n!=0){
             if(n&1)
                 cnt++;
-            n = n>>1;
+            n = n>>1;  ////n = n/2
         }
         if(cnt==1)
             cout<<"yes"<<endl;
